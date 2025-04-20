@@ -36,3 +36,13 @@ pip install pandas numpy matplotlib scikit-learn
 2. Enter the values for all the features when prompted.
 3. The model will predict if the tumor is Malignant (M) or Benign (B).
 4. It also displays the model’s accuracy and plots the ROC curve.
+
+**🧠 Notes**
+This is a regression-based approach to a classification problem.
+For improved performance, consider using RandomForestClassifier instead of Regressor
+
+**📈 Example Output**
+The model predicts that the tumor is benign (B).
+Model Accuracy: 0.9561
+MAE: 0.03478
+
